@@ -1,0 +1,18 @@
+.lightnav{
+    background-color: #e3f2fd;
+}
+
+.navstyle{
+    color: white;
+}
+
+.styleCon{
+    background-color: #DFE9F0;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
