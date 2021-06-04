@@ -4,8 +4,8 @@ export default class componentName extends Component {
     render() {
         return (
             <div className="container center">
-                <div className="row">
-                    <div className="col-sm-9">
+                <div className="row pb-3">
+                    <div className="col-sm-12">
                         <div className="card styleCon">
                             <div className="card-body">
                                 <h5 className="card-title">Datos Personales</h5>
@@ -107,37 +107,64 @@ export default class componentName extends Component {
                                             <input type="email" id="email" name="email" className="form-control form-control-sm" autoComplete="off" required />
                                         </div>
                                     </div>
-                                    <div className="row g-3">
-                                        <div className="form-group col-sm-6">
-                                            <div className="col-sm">
-                                                <label htmlfor="linaBaja">Linea Baja</label>
+                                    <div className="row pt-3">
+                                        <div className="form-group col-sm-3">
+                                            <div className="input-group mb-3">
+                                                <span className="input-group-text" htmlfor="vive">Vive en Casa</span>
+                                                <select className="form-select" aria-label="vive">
+                                                    <option selected value="P">Propia</option>
+                                                    <option value="R">Rentada</option>
+                                                    <option value="D">Padres</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div className="form-group col-sm-3">
+                                            <div className="input-group mb-2">
+                                                <span className="input-group-text" htmlfor="situacionLaboral">Situacion Laboral</span>
+                                                <select className="form-select" aria-label="situacionLaboral">
+                                                    <option selected value="P">Permanente</option>
+                                                    <option value="C">Contratados</option>
+                                                    <option value="CM">Comisionados</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div className="form-group col-sm-3">
+                                            <div className="input-group mb-3">
+                                                <span className="input-group-text" htmlfor="linea Baja">Linea Baja</span>
                                                 <input type="number" id="lineaBaja" name="lineaBaja" className="form-control form-control-sm" />
                                             </div>
-                                            <div className="col-sm">
-                                                <label htmlfor="movil">Celular</label>
+                                        </div>
+                                        <div className="form-group col-sm-3">
+                                            <div className="input-group mb-3">
+                                                <span className="input-group-text" htmlfor="movil">Celular</span>
                                                 <input type="number" id="movil" name="movil" className="form-control form-control-sm" />
                                             </div>
                                         </div>
-                                        <div className="form-group col-sm-3">
-                                            <label htmlfor="situanLaboral">Situacion Laboral</label>
-                                            <select className="form-select" aria-label="situacionLaboral">
-                                                <option selected>Elija una Opcion</option>
-                                                <option value="P">Permanente</option>
-                                                <option value="C">Contratados</option>
-                                                <option value="CM">Comisionados</option>
-                                            </select>
-                                        </div>
-                                        <div className="form-group col-sm-3">
-                                            <label htmlfor="sexo">Sexo</label>
-                                            <select className="form-select" aria-label="sexo">
-                                                <option selected>Elija un Sexo</option>
-                                                <option value="F">Femenino</option>
-                                                <option value="M">Masculino</option>
-                                                <option value="O">Otros</option>
-                                            </select>
+                                    </div>
+                                    <div className="row">
+                                        <div className="form-floating">
+                                            <textarea className="form-control styletext" name="txtobservacion" id="txtObservaciones"  rows="10"></textarea>
+                                            <label htmlFor="observaciones" className="form-label">Observaciones:</label>
                                         </div>
                                     </div>
                                 </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row mt-7">
+                    <div className="col-sm-12">
+                        <div className="card">
+                            <div className="card-body">
+                                <div className="card-title">
+                                    <form id="estadoCivil">
+                                        <div className="form-group col-sm-2">
+                                            <div className="form-check form-check-inline">
+                                                
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
