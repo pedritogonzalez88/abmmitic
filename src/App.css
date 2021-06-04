@@ -20,3 +20,8 @@
 .styletext{
     height: 100%;
 }
+
+.frmhijosrowstyle{
+    width: 100%;
+    justify-content: center;
+}

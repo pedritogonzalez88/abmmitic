@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class componentName extends Component {
+export default class FuncionariosComponent extends Component {
     render() {
         return (
             <div className="container center">
@@ -148,23 +148,6 @@ export default class componentName extends Component {
                                         </div>
                                     </div>
                                 </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="row mt-7">
-                    <div className="col-sm-12">
-                        <div className="card">
-                            <div className="card-body">
-                                <div className="card-title">
-                                    <form id="estadoCivil">
-                                        <div className="form-group col-sm-2">
-                                            <div className="form-check form-check-inline">
-                                                
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
                             </div>
                         </div>
                     </div>

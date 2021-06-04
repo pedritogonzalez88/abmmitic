@@ -6,7 +6,9 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 
 import Navbar from './components/Navegacion';
-import funcionarios from './components/Funcionarios';
+import Datospersonales from './components/Funcionarios/DatosPersonales';
+import estadoCivil from './components/Funcionarios/EstadoCivil';
+import datosfamiliares from './components/Funcionarios/DatosFamiliares';
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
      <Router>
        <Navbar/>
         <Switch>
-           <Route exact path="/funcionarios" component={funcionarios}/>
+           <Route exact path="/datospersonales" component={Datospersonales}/>
+           <Route exact path="/estadocivil" component={estadoCivil}/>
+           <Route exact path="/datosfamiliares" component={datosfamiliares}/>
         </Switch>
      </Router>
     </div>
