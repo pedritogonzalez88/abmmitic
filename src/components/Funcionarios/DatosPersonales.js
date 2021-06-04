@@ -48,7 +48,7 @@ export default class FuncionariosComponent extends Component {
                                     <div className="row">
                                         <div className="form-group col-sm-3">
                                             <label htmlfor="ci">Cedula de Identidad</label>
-                                            <input type="number" id="ci" name="ci" className="form-control form-control-sm" autoComplete="off" required />
+                                            <input type="text" id="ci" name="ci" className="form-control form-control-sm" autoComplete="off" required />
                                         </div>
                                         <div className="form-group col-sm-2">
                                             <label htmlfor="pasaporte">Pasaporte</label>
@@ -74,7 +74,7 @@ export default class FuncionariosComponent extends Component {
                                         </div>
                                         <div className="form-group col-sm-1">
                                             <label htmlfor="nroCasa">Numero</label>
-                                            <input type="number" id="nroCasa" name="nroCasa" className="form-control form-control-sm" autoComplete="off" required />
+                                            <input type="text" id="nroCasa" name="nroCasa" className="form-control form-control-sm" autoComplete="off" required />
                                         </div>
                                         <div className="form-group col-sm-4">
                                             <label htmlfor="calleSecundaria">Domicilio - Calle Secundaria</label>
@@ -86,7 +86,7 @@ export default class FuncionariosComponent extends Component {
                                         </div>
                                         <div className="form-group col-sm-1">
                                             <label htmlfor="piso">Piso</label>
-                                            <input type="number" id="piso" name="piso" className="form-control form-control-sm" autoComplete="off" required />
+                                            <input type="text" id="piso" name="piso" className="form-control form-control-sm" autoComplete="off" required />
                                         </div>
                                     </div>
                                     <div className="row">
@@ -131,13 +131,13 @@ export default class FuncionariosComponent extends Component {
                                         <div className="form-group col-sm-3">
                                             <div className="input-group mb-3">
                                                 <span className="input-group-text" htmlfor="linea Baja">Linea Baja</span>
-                                                <input type="number" id="lineaBaja" name="lineaBaja" className="form-control form-control-sm" />
+                                                <input type="text" id="lineaBaja" name="lineaBaja" className="form-control form-control-sm" />
                                             </div>
                                         </div>
                                         <div className="form-group col-sm-3">
                                             <div className="input-group mb-3">
                                                 <span className="input-group-text" htmlfor="movil">Celular</span>
-                                                <input type="number" id="movil" name="movil" className="form-control form-control-sm" />
+                                                <input type="text" id="movil" name="movil" className="form-control form-control-sm" />
                                             </div>
                                         </div>
                                     </div>

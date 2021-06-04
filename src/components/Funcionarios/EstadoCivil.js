@@ -13,19 +13,19 @@ export default class EstadoCivilComponent extends Component {
                                     <div className="form-group col-sm-10 ms-5 center">
                                         <div className="form-check form-check-inline">
                                             <input className="form-check-input" type="checkbox" id="soltero" value="soltero" />
-                                            <label htmlfor="soltero" className="form-check-label">Soltero</label>
+                                            <label htmlfor="soltero" className="form-check-label">Soltero/a</label>
                                         </div>
                                         <div className="form-check form-check-inline">
                                             <input className="form-check-input" type="checkbox" id="concubino" value="concubino" />
-                                            <label htmlfor="concubino" className="form-check-label">Concubino</label>
+                                            <label htmlfor="concubino" className="form-check-label">Concubino/a</label>
                                         </div>
                                         <div className="form-check form-check-inline">
                                             <input className="form-check-input" type="checkbox" id="casado" value="casado" />
-                                            <label htmlfor="casado" className="form-check-label">Casado</label>
+                                            <label htmlfor="casado" className="form-check-label">Casado/a</label>
                                         </div>
                                         <div className="form-check form-check-inline">
                                             <input className="form-check-input" type="checkbox" id="divorciado" value="divorciado" />
-                                            <label htmlfor="divorciado" className="form-check-label">Divorciado</label>
+                                            <label htmlfor="divorciado" className="form-check-label">Divorciado/a</label>
                                         </div>
                                         <div className="form-check form-check-inline">
                                             <input className="form-check-input" type="checkbox" id="viudo" value="viudo" />
@@ -66,20 +66,20 @@ export default class EstadoCivilComponent extends Component {
                                         </div>
                                         <div className="form-group col-sm-3">
                                             <div className="input-group mb-3">
-                                                <span className="input-group-text" htmlfor="situacionLaboral">Nro de Documento</span>
-                                                <input type="number" className="form-control form-control-sm" name="ciConcubino" id="ciConcubino" />
+                                                <span className="input-group-text" htmlfor="nroDocumento">Nro de Documento</span>
+                                                <input type="text" className="form-control form-control-sm" name="ciConcubino" id="ciConcubino" />
                                             </div>
                                         </div>
                                         <div className="form-group col-sm-3">
                                             <div className="input-group mb-3">
                                                 <span className="input-group-text" htmlfor="linea Baja">Linea Baja</span>
-                                                <input type="number" id="lineaBaja" name="lineaBaja" className="form-control form-control-sm" />
+                                                <input type="text" id="lineaBaja" name="lineaBaja" className="form-control form-control-sm" />
                                             </div>
                                         </div>
                                         <div className="form-group col-sm-3">
                                             <div className="input-group mb-3">
                                                 <span className="input-group-text" htmlfor="movil">Celular</span>
-                                                <input type="number" id="movil" name="movil" className="form-control form-control-sm" />
+                                                <input type="text" id="movil" name="movil" className="form-control form-control-sm" />
                                             </div>
                                         </div>
                                     </div>
