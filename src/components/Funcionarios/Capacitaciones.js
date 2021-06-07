@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class CapacitacionesComponent extends Component {
+export default class Capacitaciones extends Component {
   render() {
     return (
       <div className="container">

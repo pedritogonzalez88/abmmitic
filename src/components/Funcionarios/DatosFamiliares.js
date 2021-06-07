@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class FamiliaresComponent extends Component {
+export default class Familiares extends Component {
     render() {
         return (
             <div className="container center">

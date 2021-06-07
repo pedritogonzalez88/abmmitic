@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class EstadoCivilComponent extends Component {
+export default class EstadoCivil extends Component {
     render() {
         return (
             <div className="container center">
